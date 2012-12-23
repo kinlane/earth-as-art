@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Earth as Art</title>
+    <meta name="description" content="Random project">
+    <meta name="author" content="Kin Lane">
+    
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    
+    <script src="js/mustache.js" type="text/javascript"></script>  
+    <script src="js/utilities.js" type="text/javascript"></script>   
+    <script type="text/javascript" src="js/photos.js"></script>   
+ 
+</head>
+
+<body>
+
+<script id="photoDetailTemplate" type="text/template">
+<div style="width: 700px;" align="center">
+<h2>{{name}}</h2>
+<p><img src="{{imagepath}}" width="300" align="right" style="padding: 15px;" /></p>
+<br /><br /><p>{{details}}</p>
+<br />
+<p align="center"><a href="index.html">Return to Main Listing</a></p>
+</div>
+</script>
+
+<div id="PhotoDetail"></div>  
+
+<script>
+getPhoto(getUrlVar('plug'))
+</script>
+
+    
+</body>
+</html>
