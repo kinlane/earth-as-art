@@ -43,8 +43,7 @@ blockquote, q {
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+
 }
 
 a:focus {
@@ -249,7 +248,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+ /* border: 0px solid #fff;*/
  }
 
 form {
