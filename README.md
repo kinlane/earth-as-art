@@ -1,7 +1,7 @@
-earth-as-art
+Earth as Art from NASA
 ============
 
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/desolation-canyon.jpeg" alt="" width="300" align="right" /></p>
+<p><a href="http://kinlane.github.com/earth-as-art/index.html" target="_blank"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/desolation-canyon.jpeg" alt="" width="300" align="right" /></a></p>
 <p>I was scrolling through my feeds today and I came across, "<a href="http://www.nasa.gov/connect/ebooks/earth_art_detail.html">Earth As Art</a>" from NASA.  I clicked on the homepage and didn&rsquo;t think much, and moved on.  Then I came across <a href="http://flowingdata.com/2012/12/21/earth-as-art-from-nasa/">Earth as Art book from NASA on Flowing Data</a>, where they showed an actual image from the &ldquo;Earth As Art&rdquo; collection.</p>
 <p>Sure, I suffer from ADD.  But so does much of the world.  I work through huge amounts of data on a daily basis, looking for gems.  Sometimes I can find them myself, and sometimes I need help.</p>
 <p>The &ldquo;Earth as Art&rdquo; is an amazing collection of satellite photos from NASA.   I feel the entire collection could be made into an exhibit, allowing us to experience, take in and discuss the meaning of art, created from space of the planet we live on.</p>
@@ -17,9 +17,9 @@ earth-as-art
 <li><strong>Deck.js Presentation </strong>- Create a presentation in markdown using the satellite imagery and content, laid out using the deck.js framework</li>
 <li><strong>Widgets</strong> - Develop several, embeddable, syndicatable JavaScript widgets that are driven from the JSON file</li>
 </ul>
-<p><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/great-salt-desert.jpeg" alt="" width="300" align="right" /></p>
+<p><a href="http://kinlane.github.com/earth-as-art/index.html" target="_blank"><img style="padding: 15px;" src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/great-salt-desert.jpeg" alt="" width="300" align="right" /></a></p>
 <p>Having the Earth as a Art assets stored as individual images with name, details, location and image paths as JSON allows me build my own HTML display, presentations and widgets around the content.</p>
-<p><a href="http://kinlane.github.com/earth-as-art/index.html">Hosting the Earth as Art project at Github</a> allows me to provide simple, inexpensive, open hosting for the data, content and display elements--allowing <span style="text-decoration: underline;">anyone</span> to fork, download and remix and even choose to contribute back.</p>
+<p><a href="http://kinlane.github.com/earth-as-art/index.html" target="_blank">Hosting the Earth as Art project at Github</a> allows me to provide simple, inexpensive, open hosting for the data, content and display elements--allowing <span style="text-decoration: underline;">anyone</span> to fork, download and remix and even choose to contribute back.</p>
 <p>As another project, I can explore the licensing, branding and other aspects that will ensure the creators of the content (NASA), get the attribution they deserve for creating such amazing content.</p>
 <p>When I first saw the Earth as Art pictures this morning, I couldn&rsquo;t get over the fact that they weren&rsquo;t in a format that allowed for remix, sharing and syndication.  The images are amazing and really lend themselves for infinite presentations and interpretations.</p>
 <p>Hopefully the project will only grow from here.</p>
