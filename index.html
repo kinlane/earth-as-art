@@ -22,14 +22,11 @@
 
 
 <script id="phototemplate" type="text/template">
-    <tr>
-        <td align="center" width="165">
+    <li>
             <a href="detail.html?plug={{plug}}"><img src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/{{plug}}.jpeg" width="150" /></a>
-        </td>  
-        <td align="left" valign="middle" style="padding-bottom: 20px;">
+            -
             <a href="detail.html?plug={{plug}}" style="font-size: 20px; color:#000;"><strong>{{name}} ({{region}})</strong></a>
-        </td>   
-    </tr>                                                                                                           
+   </li>                                                                                                        
 </script>
 
     <!-- HEADER -->
@@ -57,9 +54,9 @@
         <p>I decide to deploy a web site using Github Pages + Mustache templates to display the satellite imagery as HTML files.  Next I will use the JSON and images to render presentations and other interactive versions to enjoy the work.</p>
         <hr />
         <div>
-            <table cellpadding="5" cellspacing="5" width="600" border="0" id="photolist">
+            <ul id="photolist">
                 
-            </table>
+            </ul>
         </div>         
         
         <script type="text/javascript">
