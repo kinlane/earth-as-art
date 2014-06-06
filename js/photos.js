@@ -8,6 +8,8 @@ function showphotos()
         
         $.each(data['photo'], function(key, val) {
                     
+            alert(val['name']);        
+                    
             var template = $('#phototemplate').html();
             var html = Mustache.to_html(template, val);
             $('#photolist').append(html);   
