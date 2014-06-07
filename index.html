@@ -27,7 +27,7 @@ function showphotos()
         
         $.each(data, function(key, val) {
                     
-           // alert(val['name'] + ' - ' + val['plug']);        
+            alert(val['name'] + ' - ' + val['plug']);        
                     
             var template = $('#arttemplate').html();
             var html = Mustache.to_html(template, val);
