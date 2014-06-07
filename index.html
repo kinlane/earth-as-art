@@ -10,38 +10,33 @@ title: Earth As Art
 <p>I decide to deploy a web site using <a href="http://pages.github.com/" target="_blank">Github Pages</a> + <a href="http://mustache.github.com/" target="_blank">Mustache templates</a> to display the satellite imagery as HTML files.  Next I will use the JSON and images to render presentations and other interactive implementations that allow the art to be viewed, shared and syndicated.</p>
 <hr />
 
-<ul id="earthartlist"></ul>        
-
-<script id="eartharttemplate" type="x-tmpl-mustache">
-   <li>Here: {{title}}</li>                                                                                                     
+<script id="artListingTemplate" type="text/template"> 
+    {% raw  %}  
+    <a href="{{url}}" target="_blank" title="{{title}}">
+        <img src="{{logo}}" width="{{width}}" style="padding-bottom: {{paddingbottom}}px;" />
+    </a>   
+    {% endraw %}                                                                                                                    
+</script>  
+ 
+<script type="text/javascript">
+    function listArt()
+        {
+        $.getJSON('/data/sponsors.json', function(data) {               
+             $.each(data['sponsors'], function(key, val) {                  
+                var template = $('#artListingTemplate').html();
+                var html = Mustache.to_html(template, val);
+                $('#artListingContainer').append(html);
+                });         
+            });             
+        }    
 </script>
 
+<div id="artListingContainer" align="center"><br /><br /> </div>
+
 <script type="text/javascript">
-
-function listArt()
-    {
-    
-    $.getJSON('data/sponsors.json', function(data) {
-        
-        $.each(data, function(key, val) {
-                   
-             alert('Name: ' + val['title']);        
-            
-              var template = $('#eartharttemplate').html();
-              Mustache.parse(template); 
-              var rendered = Mustache.render(template, val);
-              $('#earthartlist').html(rendered);            
-                        
-                            
-          });           
-            
-        }); 
- 
-    }  
-    
-listArt();
-
+    listArt();
 </script> 
+   
         
 <br /><br />
 <!-- 3scale -->
