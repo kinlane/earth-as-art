@@ -10,23 +10,21 @@ title: Earth As Art
 <p>I decide to deploy a web site using <a href="http://pages.github.com/" target="_blank">Github Pages</a> + <a href="http://mustache.github.com/" target="_blank">Mustache templates</a> to display the satellite imagery as HTML files.  Next I will use the JSON and images to render presentations and other interactive implementations that allow the art to be viewed, shared and syndicated.</p>
 <hr />
 
-<script id="arttemplate" type="text/template">
-   <li>Here: {{{name}}}</li>                                                                                                     
-</script>
+<ul id="earthartlist"></ul>        
 
-<div>
-    <ul id="earthartlist"></ul>
-</div>         
+<script id="arttemplate" type="text/template">
+   <li>Here: {{name}}</li>                                                                                                     
+</script>
 
 <script type="text/javascript">
 
-function showphotos()
+function listArt()
     {
     
     $.getJSON('data/photos.json', function(data) {
         
         $.each(data, function(key, val) {
-                    
+                   
             alert(val['name'] + ' - ' + val['plug']);        
                     
             var template = $('#arttemplate').html();
@@ -40,21 +38,7 @@ function showphotos()
  
     }  
     
-function getPhoto(plug)
-    {
-    $.getJSON('data/photos.json', function(data) {
-        $.each(data['photo'], function(key, val) {
-            //alert(plug + ' = ' + val['plug'])
-            if(plug==val['plug']){
-                var template = $('#photoDetailTemplate').html();
-                var html = Mustache.to_html(template, val);
-                $('#PhotoDetail').html(html);
-            }
-          });                            
-        });
-    }  
-
-showphotos();
+listArt();
 
 </script> 
         
