@@ -25,7 +25,7 @@
       "name": "Alluvial Fan",
       "plug": "alluvial-fan",
       "region": "China",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/alluvial-fan.jpeg"
     },
     {
@@ -67,28 +67,28 @@
       "name": "Brandberg Massif",
       "plug": "brandberg-massif",
       "region": "Namibia",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/brandberg-massif.jpeg"
     },
     {
       "name": "Byrd Glacier",
       "plug": "byrd-glacier",
       "region": "Antarctica",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/byrd-glacier.jpeg"
     },
     {
       "name": "Cape Farewell",
       "plug": "cape-farewell",
       "region": "New Zealand",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/cape-farewell.jpeg"
     },
     {
       "name": "Carbonate Sand Dunes",
       "plug": "carbonate-sand-dunes",
       "region": "Atlantic Ocean",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/carbonate-sand-dunes.jpeg"
     },
     {
@@ -172,7 +172,7 @@
       "name": "Gravity Waves",
       "plug": "gravity-waves",
       "region": "Above the Indian Ocean",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/gravity-waves.jpeg"
     },
     {
@@ -214,7 +214,7 @@
       "name": "Kalahari Desert",
       "plug": "kalahari-desert",
       "region": "Southern Africa",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/kalahari-desert.jpeg"
     },
     {
@@ -228,7 +228,7 @@
       "name": "Kilimanjaro",
       "plug": "kilimanjaro",
       "region": "Kenya and Tanzania",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/kilimanjaro.jpeg"
     },
     {
@@ -333,14 +333,14 @@
       "name": "Okavango Delta",
       "plug": "okavango-delta",
       "region": "Botswana",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/okavango-delta.jpeg"
     },
     {
       "name": "Painted Desert",
       "plug": "painted-desert",
       "region": "United States",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/painted-desert.jpeg"
     },
     {
@@ -410,7 +410,7 @@
       "name": "Sierra Madre Oriental",
       "plug": "sierra-madre-oriental",
       "region": "Mexico",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/sierra-madre-oriental.jpeg"
     },
     {
@@ -424,7 +424,7 @@
       "name": "Southern Sahara Desert",
       "plug": "southern-sahara-desert",
       "region": "Africa",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/southern-sahara-desert.jpeg"
     },
     {
@@ -445,7 +445,7 @@
       "name": "Tassili n’Ajjer",
       "plug": "tassili-n’ajjer",
       "region": "Algeria",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/tassili-n’ajjer.jpeg"
     },
     {
@@ -466,14 +466,14 @@
       "name": "Tibetan Plateau",
       "plug": "tibetan-plateau",
       "region": "Central Asia",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/tibetan-plateau.jpeg"
     },
     {
       "name": "Tikehau Atoll",
       "plug": "tikehau-atoll",
       "region": "French Polynesia",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/tikehau-atoll.jpeg"
     },
     {
@@ -508,7 +508,7 @@
       "name": "Von Kármán Vortices",
       "plug": "von-kármán-vortices",
       "region": "Southern Pacific Ocean",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/von-kármán-vortices.jpeg"
     },
     {
@@ -522,7 +522,7 @@
       "name": "Zagros Mountains",
       "plug": "zagros-mountains",
       "region": "Iran",
-      "details": null,
+      "details": "no description",
       "imagepath": "images\/zagros-mountains.jpeg"
     }
   ]
