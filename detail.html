@@ -6,9 +6,11 @@ title: Detail
 <script id="photoDetailTemplate" type="text/template">
     {% raw  %} 
     <div style="width: 700px;" align="center">
+        
+        <p><img src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/{{plug}}.jpeg" width="550" style="padding: 15px;" /></p>
+        
         <h2>{{name}}</h2>
-        <p><img src="https://s3.amazonaws.com/kinlane-productions/earth-as-art/{{plug}}.jpeg" width="300" align="right" style="padding: 15px;" /></p>
-        <br /><br /><p>{{details}}</p>
+        <p>{{details}}</p>
     </div>
     {% endraw %} 
 </script>
