@@ -24,7 +24,9 @@ function listArt()
     $.getJSON('data/photos.json', function(data) {
         
         $.each(data, function(key, val) {
-
+                   
+             alert('Name: ' + val['name']);        
+            
               var template = $('#eartharttemplate').html();
               Mustache.parse(template); 
               var rendered = Mustache.render(template, val);
