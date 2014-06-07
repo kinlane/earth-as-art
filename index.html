@@ -34,6 +34,7 @@ function showphotos()
                     
             var template = $('#arttemplate').html();
             var html = Mustache.to_html(template, val);
+            alert(html);
             $('#earthartlist').append(html);   
                             
           });           
