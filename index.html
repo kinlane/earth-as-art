@@ -13,7 +13,7 @@ title: Earth As Art
 <ul id="earthartlist"></ul>        
 
 <script id="eartharttemplate" type="x-tmpl-mustache">
-   <li>Here: {{name}}</li>                                                                                                     
+   <li>Here: {{title}}</li>                                                                                                     
 </script>
 
 <script type="text/javascript">
@@ -21,11 +21,11 @@ title: Earth As Art
 function listArt()
     {
     
-    $.getJSON('data/photos.json', function(data) {
+    $.getJSON('data/sponsors.json', function(data) {
         
         $.each(data, function(key, val) {
                    
-             alert('Name: ' + val['name']);        
+             alert('Name: ' + val['title']);        
             
               var template = $('#eartharttemplate').html();
               Mustache.parse(template); 
