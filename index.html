@@ -11,7 +11,7 @@ title: Earth As Art
 <hr />
 
 <script id="arttemplate" type="text/template">
-   <li>{{name}}</li>                                                                                                     
+   <li>Here: {{{name}}}</li>                                                                                                     
 </script>
 
 <div>
@@ -25,10 +25,7 @@ function showphotos()
     
     $.getJSON('data/photos.json', function(data) {
         
-        allphotos = data['photo'];
-        totalphotos = allphotos.length;
-        
-        $.each(data['photo'], function(key, val) {
+        $.each(data, function(key, val) {
                     
            // alert(val['name'] + ' - ' + val['plug']);        
                     
