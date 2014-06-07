@@ -12,7 +12,7 @@ title: Earth As Art
 
 <ul id="earthartlist"></ul>        
 
-<script id="arttemplate" type="text/template">
+<script id="eartharttemplate" type="x-tmpl-mustache">
    <li>Here: {{name}}</li>                                                                                                     
 </script>
 
@@ -26,11 +26,12 @@ function listArt()
         $.each(data, function(key, val) {
                    
             alert(val['name'] + ' - ' + val['plug']);        
-                    
-            var template = $('#arttemplate').html();
-            var html = Mustache.to_html(template, val);
-            alert(html);
-            $('#earthartlist').append(html);   
+            
+              var template = $('#eartharttemplate').html();
+              Mustache.parse(template); 
+              var rendered = Mustache.render(template, val);
+              $('#earthartlist').html(rendered);            
+                        
                             
           });           
             
