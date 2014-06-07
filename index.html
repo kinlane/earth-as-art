@@ -20,7 +20,7 @@ title: Earth As Art
 
 <div>
     <center>
-    <table cellpadding="5" cellspacing="5" width="600" border="0" id="photolist" style="border: 0px #FFF;">
+    <table cellpadding="5" cellspacing="5" width="600" border="0" id="earthartlist" style="border: 0px #FFF;">
         
     </table>
     </center>
@@ -38,11 +38,11 @@ function showphotos()
         
         $.each(data['photo'], function(key, val) {
                     
-            alert(val['name'] + ' - ' + val['plug']);        
+           // alert(val['name'] + ' - ' + val['plug']);        
                     
             var template = $('#arttemplate').html();
             var html = Mustache.to_html(template, val);
-            $('#photolist').append(html);   
+            $('#earthartlist').append(html);   
                             
           });           
             
